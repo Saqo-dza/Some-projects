@@ -22,7 +22,7 @@ namespace CoffeeMachine
             {
                 Console.Clear();
                 Console.WriteLine(e.Message);
-                Main();
+                coffeeStore.EnterCoins();
             }
             
         }
